@@ -1,0 +1,13 @@
+cd C:\Users\S7\Downloads\FarmGPT
+
+python3.10 -m venv venv
+
+venv\Scripts\activate
+
+pip install streamlit
+
+pip install google-generativeai
+
+pip install python-dotenv
+
+streamlit run main_app.py
